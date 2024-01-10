@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800px;
+    color: green !important;
+}
+#navbarSupportedContent{
+    color: rgb(228, 228, 151);
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid green;
+}
+#navbarSupportedContent button{
+    background: green;
+    width: 5rem;
+    border-radius: 50px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+
+}
+#home{
+    background: url(image17.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: rgb(80, 12, 12);
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 1px 0px white,0px 2px 0px white,0px 3px 0px white,0px 3px 0px white,0px 4px 0px white;
+
+}
+#home p{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+
+}
+.bt{
+    background: green;
+    color: rgb(230, 218, 218);
+    box-shadow: 2px 4px 3=5px rgba(0,0,0,.4);
+}
+#about{
+    background-color: rgb(237, 235, 239);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: black;
+}
+#about p{
+    color: black;
+}
+
+#product{
+    background: rgb(120, 120, 67);
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+
+}
+#product img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: green;
+    border: none ;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.4),inset 4px 4px 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+#product h5{
+    color: black;
+}
+.card:hover{
+    box-shadow: inset blue,wheat;
+}
+#contact img{
+    width: 300px;
+    height: 300px;
+}
+.box{
+    width: 80%;
+
+    margin-top: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact text{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    margin-top: -30px;
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+#contact h1{
+    color: blue;
+}
